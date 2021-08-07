@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "自动提交GitHub脚本"
+title:  "GitHub自动提交脚本"
 date:   2021-08-07 16:12:40
 catalog:  true
 tags:
