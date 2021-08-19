@@ -48,7 +48,7 @@ git_push ~/IdeaProjects/20210729/src/ttt
 crontab  -e
 在文件的末尾添加：
 
-30 5 * * * /home/mianhk/shell/auto_push.sh  表示在每天的 5.30执行
+30 5 * * * /bin/sh /home/mianhk/shell/auto_push.sh | tee ~/auto_push.log  //表示在每天的 5.30执行
 启动服务
 /etc/init.d/cron start
 ```
